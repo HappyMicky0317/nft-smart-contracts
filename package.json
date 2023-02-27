@@ -1,0 +1,49 @@
+{
+	"name": "nft-smart-contracts",
+	"version": "1.0.0",
+	"description": "Gas optimised NFT smart contracts.",
+	"directories": {
+		"test": "test"
+	},
+	"engines": {
+		"node": ">=16.x"
+	},
+	"scripts": {
+		"prettier:sol": "prettier --write contracts/**/*.sol",
+		"compile": "truffle compile",
+		"test": "truffle test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kodjunkie/nft-smart-contracts.git"
+	},
+	"keywords": [
+		"NFT",
+		"NFTs",
+		"Smart",
+		"Contracts",
+		"ERC721",
+		"ERC721A"
+	],
+	"author": "Lawrence Onah <paplow01@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/kodjunkie/nft-smart-contracts/issues"
+	},
+	"homepage": "https://github.com/kodjunkie/nft-smart-contracts#readme",
+	"dependencies": {
+		"@openzeppelin/contracts": "^4.5.0",
+		"@truffle/hdwallet-provider": "^2.0.4",
+		"dotenv": "^16.0.0"
+	},
+	"devDependencies": {
+		"chai": "^4.3.6",
+		"chai-as-promised": "^7.1.1",
+		"chai-bn": "^0.3.1",
+		"prettier": "^2.6.1",
+		"prettier-plugin-solidity": "^1.0.0-beta.19",
+		"solhint": "^3.3.7",
+		"solhint-plugin-prettier": "^0.0.5",
+		"truffle": "^5.7.0"
+	}
+}
